@@ -1,7 +1,7 @@
 # KELOMPOK 3
 # Nama	: 
-###    Dini Puspita Sari (07)
-###    Luis Santiago (18)
+####    Dini Puspita Sari (07)
+####    Luis Santiago (18)
 # Judul Aplikasi : 
 ###    Novel Inc
 # Deskripsi Aplikasi :
