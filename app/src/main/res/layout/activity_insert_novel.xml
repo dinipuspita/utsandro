@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".InsertNovel">
+
+    <View
+        android:layout_width="334dp"
+        android:layout_height="398dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff"></View>
+
+
+    <TextView
+        android:id="@+id/tambahdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="@string/tambah_data"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="49dp"
+        android:text="Judul Novel"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="121dp"
+        android:text="Penulis / Pengarang"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="200dp"
+        android:text="Penerbit"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="-225dp"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText5"
+        android:layout_alignStart="@+id/editText4"
+        android:text="Tahun Terbit"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignStart="@+id/editText4"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="224dp"
+        android:layout_marginStart="41dp"
+        android:text="Sinopsis"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_below="@+id/textView4"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="91dp"
+        android:background="#6fdcde"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button1"
+        android:background="#dc5e5e"
+        android:text="Kembali" />
+
+
+
+
+</RelativeLayout>

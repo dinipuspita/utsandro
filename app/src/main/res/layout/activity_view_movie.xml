@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".ViewMovie">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#e0e8ed"></View>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="281dp"
+        android:layout_marginRight="20dp"
+        android:text="TextView"
+        android:layout_marginLeft="281dp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="46dp"
+        android:gravity="end"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="94dp"
+        android:gravity="end"
+        android:text="TextView"
+        android:textAlignment="textEnd" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:gravity="end"
+        android:text="TextView"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="217dp"
+        android:gravity="end"
+        android:text="TextView"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/TextView04"
+        android:gravity="end"
+        android:text="TextView"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ID"/>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView2"
+        android:textStyle="bold"
+        android:text="Judul Novel" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView3"
+        android:textStyle="bold"
+        android:text="Penulis / Pengarang" />
+
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/TextView01"
+        android:textStyle="bold"
+        android:layout_marginTop="146dp"
+        android:text="Penerbit" />
+
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="205dp"
+        android:textStyle="bold"
+        android:text="Tahun Terbit" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/TextView01"
+        android:layout_centerVertical="true"
+        android:text="Sinopsis" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button1"
+        android:background="#ff3c3f"
+        android:onClick="button_logout"
+        android:text="Logout"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="153dp"
+        android:background="#4eb7c2"
+        android:text="Kembali" />
+
+
+
+
+</RelativeLayout>

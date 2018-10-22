@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Menu"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearlayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="112dp"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+        android:text="Menu"
+        android:textSize="15pt"
+        android:textStyle="bold" />
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_logout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:background="#ff3c3f"-->
+        <!--android:onClick="button_logout"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="Logout"-->
+        <!--android:textColor="#ffffff" />-->
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="165dp"
+        android:layout_centerInParent="true"
+        android:background="#f4b7b7"
+        android:orientation="vertical"
+        android:outlineSpotShadowColor="#000">
+
+        <Button
+            android:id="@+id/btn_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98bfde"
+            android:onClick="recycler"
+            android:text="List Data" />
+
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffc94a"
+            android:onClick="tambahdata"
+            android:text="View Data" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        tools:context=".list_data">
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="70dp"
+            android:background="#c98585"></LinearLayout>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/judul"
+            android:layout_alignParentStart="true"
+            android:text="Id :" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/penulis"
+            android:layout_alignParentStart="true"
+            android:text="Judul   :" />
+
+        <TextView
+            android:id="@+id/penulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/penerbit"
+            android:layout_alignParentStart="true"
+            android:text="Penulis   :" />
+
+        <TextView
+            android:id="@+id/penerbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tahunterbit"
+            android:layout_alignParentStart="true"
+            android:text="Penerbit   :" />
+
+        <TextView
+            android:id="@+id/tahunterbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sinopsis"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="-130dp"
+            android:text="Tahun Terbit  :" />
+
+
+        <TextView
+            android:id="@+id/sinopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="130dp"
+            android:text="Sinopsis  :" />
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="44dp"
+            android:layout_height="53dp"
+            android:layout_alignBottom="@+id/judul"
+            android:layout_alignParentEnd="true"
+            android:maxHeight="16px"
+            android:maxWidth="16px"
+            android:src="@drawable/bg1" />
+
+
+    </RelativeLayout>
