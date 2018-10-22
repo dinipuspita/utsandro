@@ -1,6 +1,7 @@
 # utsandro
-# Nama	: Dini Puspita Sari (07)
-#     	  Luis Santiago (18)
+# Nama	: 
+Dini Puspita Sari (07)
+Luis Santiago (18)
 
 # Judul Aplikasi : Novel Inc
 
